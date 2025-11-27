@@ -1,0 +1,4 @@
+query_id,query_text,t_retrieve,t_rerank,t_reason,t_generate,t_total,tokens_used,cache_hits,tools_invoked,num_documents_retrieved,num_documents_used,timestamp
+query_1764237802390,"Report the Gross Margin (or Net Interest Margin, if a bank) over the last 5 quarters, with values.",0.43672752380371094,0.0,0.0,4.705812454223633,5.143540143966675,1180,0,"['calculator', 'multi_document_compare']",10,5,2025-11-27T18:03:27.533803
+query_1764237807537,"Show Operating Expenses for the last 3 fiscal years, year-on-year comparison.",0.5564315319061279,0.0,0.0,6.464043140411377,7.022475004196167,1100,0,"['calculator', 'multi_document_compare']",10,5,2025-11-27T18:03:34.559783
+query_1764237814561,"Calculate the Operating Efficiency Ratio (Opex ÷ Operating Income) for the last 3 fiscal years, showing the working.",0.40993833541870117,0.0009965896606445312,0.0,8.976217985153198,9.387152910232544,1187,0,"['calculator', 'multi_document_compare']",10,5,2025-11-27T18:03:43.949937
